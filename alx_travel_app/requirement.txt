@@ -1,1 +1,8 @@
-
+Django>=3.2,<4.0
+djangorestframework>=3.12,<4.0
+django-cors-headers>=3.10,<4.0
+celery>=5.0,<6.0
+pika>=1.2,<2.0  # For RabbitMQ
+drf-yasg>=1.20,<2.0  # For Swagger documentation
+django-environ>=0.4,<1.0  # To handle environment variables
+mysqlclient>=2.0,<3.0  # MySQL database adapter
